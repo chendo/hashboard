@@ -1,0 +1,7 @@
+%table
+  - @devices.each do |d|
+    %tr
+      %td= d.name
+      %td= d.ip
+      %td= d.mac
+      %td= d.last_seen_at
